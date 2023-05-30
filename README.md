@@ -50,7 +50,7 @@ MDSR(Multi-scale Densely Residual Networks)**<br/>
 2. REAEME.md Quickstart(Demo)에 'here'에 있는 모델 다운 받아서 experiment/model에 넣기<br/>
 
 3. src/demo.sh에서 지금 주석처리가 안 되어있는 줄을 주석처리하고<br/>
-# Test your own images 밑에 있는 줄의 주석을 해제함(32번째 줄)<br/>
+#Test your own images 밑에 있는 줄의 주석을 해제함(32번째 줄)<br/>
 
 4. git bash로 python 가상환경을 실행하고 다운받은 파일 위치로 가서 /src로 이동한 다음 sh demo.sh 실행하기<br/>
 
