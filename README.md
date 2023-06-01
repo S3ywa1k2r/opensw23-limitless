@@ -43,6 +43,7 @@ MDSR(Multi-scale Densely Residual Networks)**<br/>
 ## Analysis/Visualization
 
 ## Installation
+실행환경1 - 윈도우10 64비트 운영체제, Intel(R) Core(TM) i5-1035G7 CPU @ 1.20GHz 1.50 GHz
 1. git bash로 들어가서 가상환경에 접속 한 다음 해당 pip들을 설치한다.<br/>
 Pytorch 설치 - pip install torch<br/>
 numpy 설치 - pip install numpy<br/>
