@@ -57,10 +57,9 @@ cv2 설치 - pip install opencv-python<br/>
 이 페이지의 README.md에서 나온 code 주소로 git clone하기<br/>
 -> git clone https://github.com/thstkdgus35/EDSR-PyTorch<br/>
 <br/>
-3. model을 따로 다운받지 않을경우, default로 EDSR x4로 적용되어 결과물을 만들어낸다. 
-(만약, 다른 model을 적용하고 싶은 경우https://cv.snu.ac.kr/research/EDSR/model_pytorch.tar 링크를 클릭하여 model 파일을 다운 받아서, 다운 받은 파일을 EDSR-PyTorch/experiment/model 경로에 넣는다.)<br/>
+3. model을 따로 다운 받을 필요 없이, default로 EDSR x4 알고리즘이 적용되어 결과물을 만들어 낼 것이다. <br/>
 <br/>
-4. src/demo.sh에서 현재 주석처리가 해제 되어있는 줄을 주석처리하고 'Test your own images'라는 주석 밑에 있는 줄의 주석을 해제함(demo.sh 파일에서 32번째 줄) <br/>
+4. clone한 EDSR-PyTorch 폴더 내부에 src/demo.sh에서 현재 주석처리가 해제 되어있는 줄을 주석처리하고 'Test your own images'라는 주석 밑에 있는 줄의 주석을 해제함(demo.sh 파일에서 32번째 줄) <br/>
 <br/>  
 5. git bash로 python 가상환경을 실행하고 git bash 내부에서 다운받은 clone한 EDSR-PyTorch 폴더 내부에서 src 폴더 내부로 이동, 이동한 다음 sh demo.sh 실행하기<br/>
 <br/> 
