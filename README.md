@@ -63,7 +63,7 @@ cv2 설치 - pip install opencv-python<br/>
 5. git bash로 python 가상환경을 실행하고 다운받은 파일 위치로 가서 /src로 이동한 다음 sh [demo.sh](http://demo.sh/) 실행하기<br/>
 <br/> 
 6. 실행 결과 나온 사진은 experiment/test/results-Demo에서 확인 가능<br/>
-
+<br/>
 input:<br/> 
 ![0853x4](https://github.com/S3ywa1k2r/opensw23-limitless/assets/127181452/917b6b20-c1ca-4be9-aa30-3f6ff49599ba)<br/>
 output:<br/> 
