@@ -43,17 +43,27 @@ MDSR(Multi-scale Densely Residual Networks)**<br/>
 ## Analysis/Visualization
 
 ## Installation
-1. https://github.com/sanghyun-son/EDSR-PyTorch <br/>
-이 페이지의 README.md에서 나온 code 주소로 git clone하기 <br/>
--> git clone https://github.com/thstkdgus35/EDSR-PyTorch <br/>
+1. git bash로 들어가서 가상환경에 접속 한 다음 해당 pip들을 설치한다.
+Pytorch 설치 - pip install torch<br/>
+numpy 설치 - pip install numpy<br/>
+skimage 설치 - pip install scikit-image<br/>
+imageio 설치 - pip install imageio<br/>
+matplotlib 설치 - pip install matplotlib<br/>
+tqdm 설치 - pip install tqdm<br/>
+cv2 설치 - pip install opencv-python<br/>
+<br/>
+2. https://github.com/sanghyun-son/EDSR-PyTorch<br/>
+이 페이지의 README.md에서 나온 code 주소로 git clone하기<br/>
+-> git clone https://github.com/thstkdgus35/EDSR-PyTorch<br/>
+<br/>
+3. [REAEME.md](http://reaeme.md/) Quickstart(Demo)에 'here'에 있는 모델 다운 받아서 experiment/model에 넣기<br/>
+<br/>
+4. src/demo.sh에서 지금 주석처리가 안 되어있는 줄을 주석처리하고 Test your own images 밑에 있는 줄의 주석을 해제함(32번째 줄) <br/>
+<br/>  
+5. git bash로 python 가상환경을 실행하고 다운받은 파일 위치로 가서 /src로 이동한 다음 sh [demo.sh](http://demo.sh/) 실행하기<br/>
+<br/> 
+6. 실행 결과 나온 사진은 experiment/test/results-Demo에서 확인 가능<br/>
 
-2. REAEME.md Quickstart(Demo)에 'here'에 있는 모델 다운 받아서 experiment/model에 넣기<br/>
-
-3. src/demo.sh에서 지금 주석처리가 안 되어있는 줄을 주석처리하고<br/>
-#Test your own images 밑에 있는 줄의 주석을 해제함(32번째 줄)<br/>
-
-4. git bash로 python 가상환경을 실행하고 다운받은 파일 위치로 가서 /src로 이동한 다음 sh demo.sh 실행하기<br/>
-
-5. 실행 결과 나온 사진은 experiment/test/results-Demo에서 확인 가능<br/>
-  
+input: ![0853x4](https://github.com/S3ywa1k2r/opensw23-limitless/assets/127181452/917b6b20-c1ca-4be9-aa30-3f6ff49599ba)<br/>
+output: ![0853x4_x4_SR](https://github.com/S3ywa1k2r/opensw23-limitless/assets/127181452/a3839d4d-790d-4722-a0bd-75ab7ed7d7ba)<br/>  
 ## Presentation
