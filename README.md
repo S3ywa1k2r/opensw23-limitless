@@ -64,7 +64,8 @@ cv2 설치 - pip install opencv-python<br/>
 <br/> 
 6. 실행 결과 나온 사진은 experiment/test/results-Demo에서 확인 가능<br/>
 <br/>
-input:<br/> ![0853x4](https://github.com/S3ywa1k2r/opensw23-limitless/assets/127181452/99d61970-53b7-4c0f-bd9b-b7bda316e51c)<br/>
+input:<br/> 
+![0853x4](https://github.com/S3ywa1k2r/opensw23-limitless/assets/127181452/99d61970-53b7-4c0f-bd9b-b7bda316e51c) <br/>
 output:<br/> 
-![0853x4_x4_SR](https://github.com/S3ywa1k2r/opensw23-limitless/assets/127181452/184b613f-41d0-479b-8fa2-4b1159dba1dc)<br/>  
+![0853x4_x4_SR](https://github.com/S3ywa1k2r/opensw23-limitless/assets/127181452/184b613f-41d0-479b-8fa2-4b1159dba1dc) <br/>  
 ## Presentation
