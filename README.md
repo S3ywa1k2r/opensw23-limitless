@@ -43,7 +43,7 @@ MDSR(Multi-scale Densely Residual Networks)**<br/>
 ## Analysis/Visualization
 
 ## Installation
-1. git bash로 들어가서 가상환경에 접속 한 다음 해당 pip들을 설치한다.
+1. git bash로 들어가서 가상환경에 접속 한 다음 해당 pip들을 설치한다.<br/>
 Pytorch 설치 - pip install torch<br/>
 numpy 설치 - pip install numpy<br/>
 skimage 설치 - pip install scikit-image<br/>
@@ -68,4 +68,5 @@ input:<br/>
 ![0853x4](https://github.com/S3ywa1k2r/opensw23-limitless/assets/127181452/99d61970-53b7-4c0f-bd9b-b7bda316e51c)<br/>
 output:<br/> 
 ![0853x4_x4_SR](https://github.com/S3ywa1k2r/opensw23-limitless/assets/127181452/184b613f-41d0-479b-8fa2-4b1159dba1dc)<br/>  
+  
 ## Presentation
