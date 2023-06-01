@@ -56,7 +56,7 @@ cv2 설치 - pip install opencv-python<br/>
 이 페이지의 README.md에서 나온 code 주소로 git clone하기<br/>
 -> git clone https://github.com/thstkdgus35/EDSR-PyTorch<br/>
 <br/>
-3. [REAEME.md](http://reaeme.md/) Quickstart(Demo)에 'here'에 있는 모델 다운 받아서 experiment/model에 넣기<br/>
+3. [REAEME.md](https://reaeme.md/) Quickstart(Demo)에 'here'에 있는 모델 다운 받아서 experiment/model에 넣기<br/>
 <br/>
 4. src/demo.sh에서 지금 주석처리가 안 되어있는 줄을 주석처리하고 Test your own images 밑에 있는 줄의 주석을 해제함(32번째 줄) <br/>
 <br/>  
@@ -65,7 +65,7 @@ cv2 설치 - pip install opencv-python<br/>
 6. 실행 결과 나온 사진은 experiment/test/results-Demo에서 확인 가능<br/>
 <br/>
 input:<br/> 
-![0853x4](https://github.com/S3ywa1k2r/opensw23-limitless/assets/127181452/99d61970-53b7-4c0f-bd9b-b7bda316e51c) <br/>
+![0853x4](https://github.com/S3ywa1k2r/opensw23-limitless/assets/127181452/99d61970-53b7-4c0f-bd9b-b7bda316e51c)<br/>
 output:<br/> 
-![0853x4_x4_SR](https://github.com/S3ywa1k2r/opensw23-limitless/assets/127181452/184b613f-41d0-479b-8fa2-4b1159dba1dc) <br/>  
+![0853x4_x4_SR](https://github.com/S3ywa1k2r/opensw23-limitless/assets/127181452/184b613f-41d0-479b-8fa2-4b1159dba1dc)<br/>  
 ## Presentation
