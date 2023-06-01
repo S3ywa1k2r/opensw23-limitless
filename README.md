@@ -59,9 +59,9 @@ cv2 설치 - pip install opencv-python<br/>
 3. https://cv.snu.ac.kr/research/EDSR/model_pytorch.tar <br/>
   위 링크를 클릭하여 model 파일을 다운 받아서, 다운 받은 파일을 EDSR-PyTorch/experiment/model 경로에  넣기<br/>
 <br/>
-4. src/demo.sh에서 현재 주석처리가 해제 되어있는 줄을 주석처리하고 'Test your own images'라는 주석 밑에 있는 줄의 주석을 해제함(32번째 줄) <br/>
+4. src/demo.sh에서 현재 주석처리가 해제 되어있는 줄을 주석처리하고 'Test your own images'라는 주석 밑에 있는 줄의 주석을 해제함(demo.sh 파일에서 32번째 줄) <br/>
 <br/>  
-5. git bash로 python 가상환경을 실행하고 다운받은 파일 위치로 가서 /src로 이동한 다음 sh [demo.sh](http://demo.sh/) 실행하기<br/>
+5. git bash로 python 가상환경을 실행하고 git bash 내부에서 다운받은 clone한 EDSR-PyTorch 폴더 내부에서 src 폴더 내부로 이동<br/> 이동한 다음 sh demo.sh 실행하기<br/>
 <br/> 
 6. 실행 결과 나온 사진은 experiment/test/results-Demo에서 확인 가능<br/>
 <br/>
