@@ -25,7 +25,7 @@ ESRGAN(Enhanced Super Resolution Generative Adversarial Network)<br/>
 MDSR(Multi-scale Densely Residual Networks)**<br/>
 
 => 이중에서 우리가 사용하는 오픈소스는 **EDSR과 MDSR**을 제공합니다.<br/>
-=>그러나 현재는 버전 이슈 (특히 torch.utils.data.dataloader)로 인해 MDSR기능을 일시적으로 이용할 수 없다. 만약 MDSR 모델을 사용하고싶다면, 이전 버전의 branch를 이용해야합니다.<br/>
+=>그러나 현재는 버전 이슈 (특히 torch.utils.data.dataloader)로 인해 MDSR기능을 일시적으로 이용할 수 없습니다. 만약 MDSR 모델을 사용하고싶다면, 이전 버전의 branch를 이용해야합니다.<br/>
 => EDSR은 MDSR보다 더 높은 품질의 이미지를 생성할 수 있지만 더 많은 계산 능력을 필요로 합니다.<br/>
   
 ## Results
