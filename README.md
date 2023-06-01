@@ -61,7 +61,7 @@ cv2 설치 - pip install opencv-python<br/>
 <br/>
 4. src/demo.sh에서 현재 주석처리가 해제 되어있는 줄을 주석처리하고 'Test your own images'라는 주석 밑에 있는 줄의 주석을 해제함(demo.sh 파일에서 32번째 줄) <br/>
 <br/>  
-5. git bash로 python 가상환경을 실행하고 git bash 내부에서 다운받은 clone한 EDSR-PyTorch 폴더 내부에서 src 폴더 내부로 이동<br/> 이동한 다음 sh demo.sh 실행하기<br/>
+5. git bash로 python 가상환경을 실행하고 git bash 내부에서 다운받은 clone한 EDSR-PyTorch 폴더 내부에서 src 폴더 내부로 이동, 이동한 다음 sh demo.sh 실행하기<br/>
 <br/> 
 6. 실행 결과 나온 사진은 experiment/test/results-Demo에서 확인 가능<br/>
 <br/>
