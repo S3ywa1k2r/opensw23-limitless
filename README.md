@@ -7,7 +7,7 @@
 정원석 201911280 Github manager <br/>
 
 ## Topic Introduction
-<Image Super Resoltion>
+[Image Super Resoltion]<br/>
 Image Super Resolution은 저해상도 이미지를 고해상도 이미지로 변환하는 기술입니다.<br/>
 딥러닝이 적용되면서 급격히 발전하였으며, 이제는 저해상도 이미지를 고해상도로 변환하여도 인간의 눈으로 구별할 수 없을 정도로 높은 품질의 이미지를 생성할 수 있습니다.<br/>
 Image Super Resolution은 다양한 분야에서 활용될 수 있는데, 예를 들어, 저해상도 카메라로 촬영된 이미지를 고해상도로 변환하여 더 선명한 이미지를 얻을 수 있고, 옛날에 촬영된 이미지를 고해상도로 변환하여 디지털화할 수 있습니다. 또한, 이미지 슈퍼 리졸루션은 의료 분야에서 의료 이미지의 해상도를 높이는 데에도 사용될 수 있습니다.<br/>
@@ -67,8 +67,11 @@ cv2 설치 - pip install opencv-python<br/>
 6. 실행 결과 나온 사진은 experiment/test/results-Demo에서 확인 가능<br/>
 <br/>
 input:<br/> 
-![0853x4](https://github.com/S3ywa1k2r/opensw23-limitless/assets/127181452/99d61970-53b7-4c0f-bd9b-b7bda316e51c)<br/>
-output:<br/> 
-![0853x4_x4_SR](https://github.com/S3ywa1k2r/opensw23-limitless/assets/127181452/184b613f-41d0-479b-8fa2-4b1159dba1dc)<br/>  
+
+  ![0853x4](https://github.com/S3ywa1k2r/opensw23-limitless/assets/127181452/9c39c0a7-674c-4956-9a93-72e5a1c3d484)<br/>
+output:<br/>
+
+  ![0853x4_x4_SR](https://github.com/S3ywa1k2r/opensw23-limitless/assets/127181452/10ad7297-5a4a-4716-901d-6d81906010d8)<br/>
+
   
 ## Presentation
