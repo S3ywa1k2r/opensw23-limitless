@@ -2,8 +2,8 @@
 
 ## Team Introduction
 허준호 201911291 Team Leader <br/>
-조하상 202012784 Coder <br/> 
-김경민 202114216 Coder <br/>
+조하상 202012784 Analyst <br/> 
+김경민 202114216 Presentation manager <br/>
 정원석 201911280 Github manager <br/>
 
 ## Topic Introduction
@@ -59,13 +59,13 @@ cv2 설치 - pip install opencv-python<br/>
 <br/>
 3. clone한 EDSR-PyTorch 폴더 내부에 src/demo.sh에서 현재 주석처리가 해제 되어있는 줄을 주석처리하고 'Test your own images'라는 주석 밑에 있는 줄의 주석을 해제함(demo.sh 파일에서 32번째 줄) <br/>
 <br/>  
-4. git bash로 python 가상환경을 실행하고 git bash 내부에서 다운받은 clone한 EDSR-PyTorch 폴더 내부에서 src 폴더 내부로 이동.
+4. git bash로 python 가상환경을 실행하고 git bash 내부에서 다운받은 clone한 EDSR-PyTorch 폴더 내부에서 src 폴더 내부로 이동.<br/>
 <br/>
-6. 테스트할 사진을 project/test 폴더 안에 넣기
+5. 테스트할 사진을 project/test 폴더 안에 넣기<br/>
 <br/>
-7. 이동한 다음 sh demo.sh 실행하기<br/>
+6. 이동한 다음 sh demo.sh 실행하기<br/>
 <br/> 
-8. 실행 결과 나온 사진은 experiment/test/results-Demo에서 확인 가능 (model을 따로 다운 받을 필요 없이, default로 EDSR x4 model을 다운로드 받아 적용되어 결과물을 만들어 낼 것이다) <br/>
+7. 실행 결과 나온 사진은 experiment/test/results-Demo에서 확인 가능 (model을 따로 다운 받을 필요 없이, default로 EDSR x4 model을 다운로드 받아 적용되어 결과물을 만들어 낼 것이다) <br/>
 <br/>
 input:<br/> 
 
