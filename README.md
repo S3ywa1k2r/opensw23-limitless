@@ -89,12 +89,6 @@ cv2 설치 - pip install opencv-python<br/>
 <br/> 
 7. 실행 결과 나온 사진은 experiment/test/results-Demo에서 확인 가능 (model을 따로 다운 받을 필요 없이, default로 EDSR x4 model을 다운로드 받아 적용되어 결과물을 만들어 낼 것이다) <br/>
 <br/>
-input:<br/> 
-
-  ![0853x4](https://github.com/S3ywa1k2r/opensw23-limitless/assets/127181452/9c39c0a7-674c-4956-9a93-72e5a1c3d484)<br/>
-output:<br/>
-
-  ![0853x4_x4_SR](https://github.com/S3ywa1k2r/opensw23-limitless/assets/127181452/10ad7297-5a4a-4716-901d-6d81906010d8)<br/>
 
 
 ## Presentation
