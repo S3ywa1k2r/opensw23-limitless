@@ -92,3 +92,4 @@ cv2 설치 - pip install opencv-python<br/>
 
 
 ## Presentation
+https://youtu.be/4LoQPCRuQr8
