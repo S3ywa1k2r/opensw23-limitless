@@ -29,7 +29,12 @@ MDSR(Multi-scale Densely Residual Networks)**<br/>
 => EDSR은 MDSR보다 더 높은 품질의 이미지를 생성할 수 있지만 더 많은 계산 능력을 필요로 합니다.<br/>
   
 ## Results
-  
+![KakaoTalk_20230608_144056145](https://github.com/S3ywa1k2r/opensw23-limitless/assets/127181452/c9e86872-49bb-4b7f-8c6e-68eae0355316)
+PSNR은 최대 신호 대 잡음비(Peak Signal-to-noise ratio) 이미지 품질 측정의 기준중 하나입니다. 하지만, PSNR은 인간이 시각적으로 느끼는 품질 차이를 표현한 방법이 아니기에 값이 높게 나와도 사람의 눈으로 보았을 때는 PSNR이 더 작게 나온 이미지가 화질이 더 좋아 보일 수도 있습니다.
+저희는 이 부분을 직접 확인해보고자
+그렇기 때문에 PSNR 수치는 참고만 할 뿐 맹신해서는 안되겠다는 것을 이번 프로젝트를 통해 깨달았습니다.
+
+**Sample**
 원본이미지<br/>
 ![0853x4](https://github.com/S3ywa1k2r/opensw23-limitless/assets/127181452/917b6b20-c1ca-4be9-aa30-3f6ff49599ba)<br/>
 파일 크기: 268KB<br/>
@@ -39,8 +44,9 @@ MDSR(Multi-scale Densely Residual Networks)**<br/>
 ![0853x4_x4_SR](https://github.com/S3ywa1k2r/opensw23-limitless/assets/127181452/a3839d4d-790d-4722-a0bd-75ab7ed7d7ba)<br/>
 파일 크기: 2.53MB<br/>
 사진 크기: 2040 x 1356<br/>
-<br/>  
+<br/>
 ## Analysis/Visualization
+
 
 ## Installation
 실행환경 - 윈도우10 64비트 운영체제, Intel(R) Core(TM) i5-1035G7 CPU @ 1.20GHz 1.50 GHz
@@ -74,5 +80,5 @@ output:<br/>
 
   ![0853x4_x4_SR](https://github.com/S3ywa1k2r/opensw23-limitless/assets/127181452/10ad7297-5a4a-4716-901d-6d81906010d8)<br/>
 
-  
+
 ## Presentation
