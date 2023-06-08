@@ -40,9 +40,10 @@ EDSR 딥러닝 모델은 학습 데이터를 기반으로 이미지의 통계적
 ## Analysis/Visualization
 
 저희는 **원본이미지**와 **원본 이미지에서 픽셀을 1/4 한 이미지에 bicubic interpolation, EDSR을 각각 적용**한 이미지를 비교하여 어떤 알고리즘이 더 원본에 가깝게 보간을 할 수 있는지 알아보고자 분석하였습니다.
-![image](https://github.com/S3ywa1k2r/opensw23-limitless/assets/127181452/4766dfb7-1383-4acf-acdc-9871962afb19)
+![image](https://github.com/S3ywa1k2r/opensw23-limitless/assets/127181452/4766dfb7-1383-4acf-acdc-9871962afb19) <br/>
 저희는 결과물에 PSNR 수치값을 계산하여 나타내었습니다. PSNR은 최대 신호 대 잡음비(Peak Signal-to-noise ratio)로 이미지 품질 측정의 기준중 하나입니다. 여기서 MSE는, Mean Squre Error로 '평균제곱오차'를 의미합니다. s는 픽셀의 최대값입니다. 8bit unsigned integer 인 경우 255가 되고, double 이나 float type으로 소수점 형태로 표현될 경우 1이 됩니다. 
-PSNR 수치는 생성 혹은 압축된 영상 또는 이미지의 화질에 대한 손실 정보를 평가하는 척도로, PSNR 수치가 높을수록 손실이 적은, 즉 화질이 높은 것으로 알려져 있습니다. 그러나, PSNR은 인간이 시각적으로 느끼는 품질 차이를 표현한 방법이 아니기에 값이 높게 나와도 사람의 눈으로 보았을 때는 PSNR이 더 작게 나온 이미지가 화질이 더 좋아 보일 수도 있습니다. 저희는 이 부분을 직접 확인해보고자 **원본**과 **bicubic interpolation을 적용한 이미지**와 , **EDSR을 적용한 이미지**를 육안으로 비교해보았습니다. 여러 이미지를 적용해서 확인해 본 결과, 원본 이미지가 어떤 것인지에 따라 다른 결과가 도출되었습니다. <br/>
+PSNR 수치는 생성 혹은 압축된 영상 또는 이미지의 화질에 대한 손실 정보를 평가하는 척도로, PSNR 수치가 높을수록 손실이 적은, 즉 화질이 높은 것으로 알려져 있습니다. 그러나, PSNR은 인간이 시각적으로 느끼는 품질 차이를 표현한 방법이 아니기에 값이 높게 나와도 사람의 눈으로 보았을 때는 PSNR이 더 작게 나온 이미지가 화질이 더 좋아 보일 수도 있습니다. 저희는 이 부분을 직접 확인해보고자 **원본**과 **bicubic interpolation을 적용한 이미지**와 , **EDSR을 적용한 이미지**를 육안으로 비교해보았습니다. bicubic interpolation을 적용하기 위해, python의 opencv 라이브러리를 이용하였습니다. 여러 이미지를 적용해서 확인해 본 결과, 원본 이미지가 어떤 것인지에 따라 다른 결과가 도출되었습니다.<br/>
+
 
 
 ![image](https://github.com/S3ywa1k2r/opensw23-limitless/assets/127181452/3e8696f7-e428-45dc-85bf-69cdaff396f8) <br/>
